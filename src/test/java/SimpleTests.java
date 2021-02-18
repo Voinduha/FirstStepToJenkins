@@ -6,11 +6,12 @@ import static org.junit.jupiter.api.Assertions.*;
 public class SimpleTests {
     @Test
     void successTest() {
-        assertTrue(true);
+        assertEquals(true, true);
     }
+
 
     @Test
     void negativeTest() {
-        assertTrue(false);
+        assertEquals(true, false);
     }
 }
